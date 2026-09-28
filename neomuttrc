@@ -1,0 +1,9 @@
+# neomuttrc — starter. Docs: https://neomutt.org/guide/
+# Copy to ~/.config/neomutt/neomuttrc and fill in your accounts.
+# NEVER commit real credentials — use a password command.
+set real_name = 'Your Name'
+set from = 'you@example.com'
+# set smtp_url = 'smtp://you@example.com@smtp.example.com:587/'
+# set smtp_pass = `pass show mail/smtp`   # via password-store
+set editor = 'nvim'
+set sort = 'reverse-date'
